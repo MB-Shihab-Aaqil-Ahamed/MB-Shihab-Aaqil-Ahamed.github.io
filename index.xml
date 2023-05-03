@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Rustem Islamov</title>
-    <link>https://rustem-islamov.github.io/</link>
-    <description>Recent content on Rustem Islamov</description>
+    <title>Shihab Aaqil Ahamed</title>
+    <link>https://mb-shihab-aaqil-ahamed.github.io/</link>
+    <description>Recent content on Shihab Aaqil Ahamed</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2021 Rustem Islamov</copyright>
+    <copyright>&amp;copy; 2023 Shihab Aaqil Ahamed</copyright>
     <lastBuildDate>Mon, 16 Feb 2021 00:00:00 +0300</lastBuildDate>
     
-	    <atom:link href="https://rustem-islamov.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
+	    <atom:link href="https://mb-shihab-aaqil-ahamed.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title></title>
@@ -23,28 +22,28 @@
     
     <item>
       <title>Posts</title>
-      <link>https://rustem-islamov.github.io/post/</link>
+      <link>https://mb-shihab-aaqil-ahamed.github.io/post/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rustem-islamov.github.io/post/</guid>
+      <guid>https://mb-shihab-aaqil-ahamed.github.io/post/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Publications</title>
-      <link>https://rustem-islamov.github.io/publication/</link>
+      <link>https://mb-shihab-aaqil-ahamed.github.io/publication/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rustem-islamov.github.io/publication/</guid>
+      <guid>https://mb-shihab-aaqil-ahamed.github.io/publication/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>https://rustem-islamov.github.io/talk/</link>
+      <link>https://mb-shihab-aaqil-ahamed.github.io/talk/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rustem-islamov.github.io/talk/</guid>
+      <guid>https://mb-shihab-aaqil-ahamed.github.io/talk/</guid>
       <description></description>
     </item>
     
