@@ -282,26 +282,158 @@
           </a>
         </div>
       </li>
-
         
-
-        
-
       </ul>
 
     </div>
   </div>
 </nav>
 
+<style>
+  /* Custom CSS for font sizes and bold titles */
+  .project-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
 
-  
+  .project-description {
+    font-size: 14px;
+  }
 
+  .article-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+</style>
 
+<div class="universal-wrapper pt-3">
+  <h1 itemprop="name">Projects</h1>
 
+  <!-- Project 1: Analog Linear Power Supply -->
+  <div class="grid-sizer col-lg-12 isotope-item project">
+    <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+      <h2 class="project-title">Analog Linear Power Supply</h2>
+      <p class="project-description">
+        Oct 2022 - Feb 2023
+        <br>
+        Linear Power Supply is used to drive a load under constant voltage/current conditions. We have designed a 10V linear power supply with a maximum current rating of 10A. First, a step-down transformer is used to reduce the 230V input line voltage to a 15V(rms) AC voltage. After that GBPC3506W Bridge rectifier rectify the voltage and 10mF capacitor smooth the output. After the smoothing stage, two transistors (MJ4502 and BC547A as Sziklai pair), 10V Zener diode, 150Ω resistor and diode are used to regulate the voltage. And there is a circuit to limit the current to a maximum of 10A. There is a short circuit protection. For the proper heat dissipation, we have used a heat sink with the MJ4502 transistor and the bridge rectifier. Final design contains a single layer PCB covered by 3D printed enclosure with 12V DC fan.
+        <!-- Add more details about the project here -->
+        <br>
+        <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/MB-Shihab-Aaqil-Ahamed/Linear-Power-Supply/" target="_blank" rel="noopener">
+          GitHub Link
+        </a>
+      </p>
+    </div>
+  </div>
 
+  <!-- Project 2: Solar WiFi Router -->
+  <div class="grid-sizer col-lg-12 isotope-item project">
+    <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+      <h2 class="project-title">Solar WiFi Router</h2>
+      <p class="project-description">
+        May 2022 - Oct 2022
+        <br>
+        Designed a high-performance Solar WiFi Router to provide uninterrupted internet access during power cuts or in areas without reliable AC power sources. The router incorporates a 12V rechargeable battery, charged either by an AC current (converted from 230V to 12V) or by a 12V solar grid power. A smart relay system automatically switches between power sources, ensuring continuous WiFi and LED operation. Real-time battery charging capability and user-friendly PCB design make it a convenient and efficient solution. This project addresses the challenges faced by students and employees during power cuts, enabling seamless online learning and work from home.
+        <!-- Add more details about the project here -->
+        <br>
+        <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/MB-Shihab-Aaqil-Ahamed/Solar-Wifi-Router/" target="_blank" rel="noopener">
+          GitHub Link
+        </a>
+      </p>
+    </div>
+  </div>
 
+  <!-- Project 3: Machine Learning Classification -->
+  <div class="grid-sizer col-lg-12 isotope-item project">
+    <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+      <h2 class="project-title">Machine Learning Classification - Telecom Customer Churn Prediction</h2>
+      <p class="project-description">
+        In this project, we use machine learning algorithms - Logistic Regression, Support Vector Machine, K-Nearest Neighbors, and Random Forest Classifier, to predict Telecom Customer Churn. By analyzing factors like services subscribed, tenure, gender, etc., we aim to reduce customer attrition. The Random Forest Classifier showed the best performance, with ~96% accuracy, ~96% precision for retained customers, and ~94% for churned customers. The recall was ~99% for retained customers and ~76% for churned customers. To improve the model further, we can implement the "Grid Search" method for hyperparameter optimization. This project highlights the importance of predictive analytics in understanding and minimizing customer churn in the telecom industry.
+        <!-- Add more details about the project here -->
+        <br>
+        <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/MB-Shihab-Aaqil-Ahamed/Machine-Learning-Projects/" target="_blank" rel="noopener">
+          GitHub Link
+        </a>
+      </p>
+    </div>
+  </div>
 
+  <!-- Project 4: NLP: Twitter Sentiment Analysis - NLTK, Python -->
+  <div class="grid-sizer col-lg-12 isotope-item project">
+    <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+      <h2 class="project-title">NLP: Twitter Sentiment Analysis - NLTK, Python</h2>
+      <p class="project-description">
+        This project aims to build an AI model for sentiment analysis on Twitter tweets. It leverages NLP techniques, including NLTK and TextBlob for text preprocessing, and scikit-learn for ML modeling. The model achieves 94% accuracy during validation, enabling companies to predict customer sentiment automatically without manual review. This practical application empowers businesses to gain insights from social media and product reviews, saving time and effort in understanding customer opinions. By converting text into numerical representations, the model predicts sentiment, whether positive (1) or negative (0), from thousands of tweets, making it a valuable tool for customer sentiment analysis.
+        <!-- Add more details about the project here -->
+        <br>
+        <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/MB-Shihab-Aaqil-Ahamed/Machine-Learning-Projects/" target="_blank" rel="noopener">
+          GitHub Link
+        </a>
+      </p>
+    </div>
+  </div>
 
+  <!-- Project 5: University Admission Prediction - Multiple Linear Regression -->
+  <div class="grid-sizer col-lg-12 isotope-item project">
+    <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+      <h2 class="project-title">University Admission Prediction - Multiple Linear Regression</h2>
+      <p class="project-description">
+        In this project, we aim to predict the chance of admission into a university based on a student's profile. The dataset includes features like GRE Scores, TOEFL Scores, University Rating, SOP, LOR Strength, Undergraduate GPA, and Research Experience. We will explore the data, visualize it, and split it into training and testing sets. Next, we will build and evaluate multiple regression models, including Linear Regression, Artificial Neural Networks, Random Forest, and Decision Tree Regressors. The performance of these models will be assessed using appropriate metrics. Finally, we will create a web application using Flask to provide a user-friendly interface for students to input their details and receive the predicted probability of admission.
+        <!-- Add more details about the project here -->
+        <br>
+        <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/MB-Shihab-Aaqil-Ahamed/Machine-Learning-Projects/" target="_blank" rel="noopener">
+          GitHub Link
+        </a>
+      </p>
+    </div>
+  </div>
+
+  <!-- Project 6: Resume Classification - Naive Bayes Classifiers -->
+  <div class="grid-sizer col-lg-12 isotope-item project">
+    <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+      <h2 class="project-title">Resume Classification - Naive Bayes Classifiers</h2>
+      <p class="project-description">
+        In this project, we explore the application of Naive Bayes classifiers to automate the process of resume classification. By training the classifier on labeled resumes, we can categorize new resumes into predefined classes, such as "Software Engineering," "Marketing," or "Design." The project involves data preprocessing, feature extraction, and the implementation of Naive Bayes algorithms. This solution can save time and effort for recruiters, allowing them to quickly filter through a large volume of resumes and identify potential candidates for specific job roles.
+        <!-- Add more details about the project here -->
+        <br>
+        <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/MB-Shihab-Aaqil-Ahamed/Machine-Learning-Projects/" target="_blank" rel="noopener">
+          GitHub Link
+        </a>
+      </p>
+    </div>
+  </div>
+
+  <!-- Project 7: Robot Design and Competition -->
+  <div class="grid-sizer col-lg-12 isotope-item project">
+    <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+      <h2 class="project-title">Robot Design and Competition</h2>
+      <p class="project-description">
+        Engaged in a robotics competition where we designed and built a robot to complete specific tasks and challenges. The competition required interdisciplinary skills, including mechanical design, electronics, programming, and problem-solving. Our team successfully designed and programmed the robot to navigate through a maze, pick up objects, and interact with the environment. The experience enhanced our teamwork, technical, and creative skills, showcasing our ability to design and implement complex robotic systems.
+        <!-- Add more details about the project here -->
+        <br>
+        <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/MB-Shihab-Aaqil-Ahamed/Robot-Design-and-Comprtition/" target="_blank" rel="noopener">
+          GitHub Link
+        </a>
+      </p>
+    </div>
+  </div>
+
+  <!-- Project 8: Simple Solar Battery Charger -->
+  <div class="grid-sizer col-lg-12 isotope-item project">
+    <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+      <h2 class="project-title">Simple Solar Battery Charger</h2>
+      <p class="project-description">
+        Designed and implemented a basic solar battery charger using photovoltaic panels and charge control circuitry. The charger harnesses solar energy to charge rechargeable batteries, making it an eco-friendly and portable power source. The project involved selecting appropriate components, circuit design, and testing. The charger can be used for low-power devices such as small electronics, LEDs, or sensors, providing a sustainable energy solution in various applications.
+        <!-- Add more details about the project here -->
+        <br>
+        <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/MB-Shihab-Aaqil-Ahamed/Simple-Solar-Battery-Charger/" target="_blank" rel="noopener">
+          GitHub Link
+        </a>
+      </p>
+    </div>
+  </div>
+
+</div>
 
 
 <!--
@@ -963,6 +1095,6 @@
 
     <script src="/en/js/wowchemy.min.0c9630012d75078aa7a4e385916d5345.js"></script>
     <script src="/en/js/wowchemy.min.ca72b29051859be0d23e83ef763d442f.js"></script>
-    
+
 </body>
 </html>
